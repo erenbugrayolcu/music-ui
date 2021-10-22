@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+html .container, body .container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #222;
+}
+
+html .container .music-player-box, body .container .music-player-box {
+  width: 30%;
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .container .music-player-box .top, body .container .music-player-box .top {
+  width: 100%;
+  height: 10%;
+}
+
+html .container .music-player-box .top .icons, body .container .music-player-box .top .icons {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .container .music-player-box .top .icons i, body .container .music-player-box .top .icons i {
+  color: #fff;
+  font-size: 40px;
+  margin: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+html .container .music-player-box .top .icons i:hover, body .container .music-player-box .top .icons i:hover {
+  color: #4e4e4e;
+}
+
+html .container .music-player-box .mid, body .container .music-player-box .mid {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .container .music-player-box .mid .cover, body .container .music-player-box .mid .cover {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .container .music-player-box .mid .cover img, body .container .music-player-box .mid .cover img {
+  width: 75%;
+  height: 60%;
+  margin-bottom: 0px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html .container .music-player-box .mid .cover .info, body .container .music-player-box .mid .cover .info {
+  width: 100%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+html .container .music-player-box .mid .cover .info i, body .container .music-player-box .mid .cover .info i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html .container .music-player-box .mid .cover .info i:hover, body .container .music-player-box .mid .cover .info i:hover {
+  color: #4e4e4e;
+}
+
+html .container .music-player-box .mid .cover .info .text, body .container .music-player-box .mid .cover .info .text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+}
+
+html .container .music-player-box .bot, body .container .music-player-box .bot {
+  width: 100%;
+  height: 20%;
+  padding-top: 1px;
+}
+
+html .container .music-player-box .bot .top, body .container .music-player-box .bot .top {
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -30px;
+}
+
+html .container .music-player-box .bot .top p, body .container .music-player-box .bot .top p {
+  margin: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html .container .music-player-box .bot .top input, body .container .music-player-box .bot .top input {
+  width: 60%;
+  height: 3px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+html .container .music-player-box .bot .top input::-webkit-slider-thumb, body .container .music-player-box .bot .top input::-webkit-slider-thumb {
+  cursor: pointer;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #4e4e4e;
+}
+
+html .container .music-player-box .bot .top input::-webkit-slider-thumb:hover, body .container .music-player-box .bot .top input::-webkit-slider-thumb:hover {
+  background: #4e4e4e;
+}
+
+html .container .music-player-box .bot .bot, body .container .music-player-box .bot .bot {
+  width: 100%;
+  height: 62%;
+}
+
+html .container .music-player-box .bot .bot .icons, body .container .music-player-box .bot .bot .icons {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+  margin-top: -15px;
+}
+
+html .container .music-player-box .bot .bot .icons i, body .container .music-player-box .bot .bot .icons i {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 23px;
+  cursor: pointer;
+}
+
+html .container .music-player-box .bot .bot .icons i:hover, body .container .music-player-box .bot .bot .icons i:hover {
+  color: #4e4e4e;
+}
+/*# sourceMappingURL=styles.css.map */
